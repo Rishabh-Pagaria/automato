@@ -1,5 +1,6 @@
 # Config for automato 
 # WTF config
+import sqlite3
 class Config(object):
 
     WTF_CSRF_ENABLED = True
@@ -7,7 +8,7 @@ class Config(object):
 
     # MySQL Config
 
-    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:alpine@127.0.0.1/reautomato'
+    SQLALCHEMY_DATABASE_URI = 'sqlite:///automato.db'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     RABBITMQ_HOST = "localhost"
 
