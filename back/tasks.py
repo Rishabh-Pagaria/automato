@@ -37,7 +37,7 @@ chrome_options.add_argument("user-data-dir="+ str(user_data_wp))
 global chrome_path
 global first_check
 
-chrome_path = r"C:\Users\Padam\Documents\chromedriver\chromedriver.exe"
+chrome_path = r"C:\Users\Deepak\Downloads\chromedriver_win32\chromedriver.exe"
 
 '''
 #Add 
